@@ -10,7 +10,10 @@ function Select($query){
             <td><?php  echo $row['name'] ?></td>
             <td><?php  echo $row['email'] ?></td>
             <td><?php  echo $row['dept'] ?></td>
+            <td><button onclick="OnDelete(<?php  echo $row['id'] ?>)">delete</button></td>
          </tr>
    <?php }
 }
+
+
 ?>

@@ -1,7 +1,7 @@
 
     <?php
  function create_drop_down($a,$b,$c){ ?>
-<select  name="" id="drop">
+<select class="form-control" name="" id="drop">
  <?php
   
     $data = array($a,$b,$c);

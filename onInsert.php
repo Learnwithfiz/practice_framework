@@ -5,7 +5,8 @@
  
   
      <h1>Insert </h1>
-     
+     <a href="oninsert.php">insert</a>
+     <a href="index.php">show</a>
        <?php 
           require 'form.php';
 

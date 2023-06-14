@@ -4,6 +4,7 @@
 ?>
 <body>
 <table class="table" border="1">
+  <a href="oninsert.php">insert data</a>
   <th>id</th>
   <th>name</th>
   <th>email</th>

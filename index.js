@@ -64,14 +64,7 @@ function OnSelect(){
 }
 
 window.onload=function(){
-   $.ajax({
-       
-      url:"index.php",
-      method:"GET",
-     
-     
-      success:function(x){
+  
          OnSelect()
-      }
-   })
+   
 }
